@@ -517,8 +517,8 @@ textarea {
     .header__logo-container:hover {
       color: #0062b9; }
   .header__logo-img-cont {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;

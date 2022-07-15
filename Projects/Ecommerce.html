@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 2</title>
+    <title>Project</title>
     <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,38 +22,51 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="../assets/png/dp-crop.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <a href="../index.html">
+            <span class="header__logo-sub">Mohamed sharfiras</span>
+          </a>
         </div>
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
+              <a href="./Ecommerce.html#project" class="header__link">
+                project
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./Ecommerce.html#screenshot" class="header__link">
+                screenshot
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./Ecommerce.html#overview" class="header__link">
+                overview
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./Ecommerce.html#tools" class="header__link">
+                tools
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./Ecommerce.html#source" class="header__link">
+                source code
+              </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
             <img
-              src="./assets/svg/ham-menu.svg"
+              src="../assets/svg/ham-menu.svg"
               alt="hamburger menu"
               class="header__main-ham-menu"
             />
             <img
-              src="./assets/svg/ham-menu-close.svg"
+              src="../assets/svg/ham-menu-close.svg"
               alt="hamburger menu close"
               class="header__main-ham-menu-close d-none"
             />
@@ -64,50 +77,74 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="./Ecommerce.html#project">
+                project
+              </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
+              <a href="./Ecommerce.html#screenshot">
+                screenshot
+              </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
+              <a href="./Ecommerce.html#overview">
+                overview
+              </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="./Ecommerce.html#tools">
+                tools
+              </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./Ecommerce.html#source">
+                source code
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
     <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
+      <div id="project" class="project-cs-hero__content">
+        <h1 class="heading-primary">E-commerce Website</h1>
         <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+          <p class="text-primary" style="text-align: justify;">
+            An e-commerce website for PC & NETWORK
+            SOLUTIONS as a final year project. This website allows
+            customers to view and purchase electronic items in the
+            store.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="#" class="btn btn--bg" target="_blank">Demo</a>
         </div>
       </div>
     </section>
-    <section class="project-details">
+    <section class="project-details" id="screenshot">
       <div class="main-container">
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="../assets/png/ecommerce.png"
               alt="Project Image"
               class="project-details__showcase-img"
+              style="border: 3px solid black;"
             />
           </div>
-          <div class="project-details__content-main">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="../assets/png/ecommerce admin.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+              style="border: 3px solid black;"
+            />
+          </div>
+          <div class="project-details__content-main" id="overview">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
@@ -127,36 +164,33 @@
                 mollitia laborum corrupti ullam rem?
               </p>
             </div>
-            <div class="project-details__tools-used">
+            <div class="project-details__tools-used" id="tools">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
                 <div class="skills__skill">HTML</div>
                 <div class="skills__skill">CSS</div>
                 <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">ReactJS</div>
+                <div class="skills__skill">NodeJS</div>
+                <div class="skills__skill">ExpressJS</div>
+                <div class="skills__skill">MongoDB</div>
+                <div class="skills__skill">Bootstrap</div>
+
               </div>
             </div>
-            <div class="project-details__links">
+            <div class="project-details__links" id="source">
               <h3 class="project-details__content-title">See Live</h3>
               <a
                 href="#"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
-                >Live Link</a
+                >Demo</a
               >
               <a
-                href="#"
+                href="https://github.com/sharfrasaqsan/nextjs-ecommerce"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
-                >Code Link</a
+                >source code</a
               >
             </div>
           </div>
@@ -168,63 +202,54 @@
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
+              <span>keep touch</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sharfiras">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
+                  src="../assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/sharfrasaqsan">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
+                  src="../assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/sharfras_aqsan">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
+                  src="../assets/png/twitter-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sharfras_aqsan">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
+                  src="../assets/png/insta-ico.png"
                   alt="icon"
                 />
               </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
+            <h4 class="heading heading-sm text-lt">Mohamed Sharfiras</h4>
+            <h6 class="main-footer__short-desc">Software Engineer (Web and Android Application Developer).</h6>
+            <span class="main-footer__short-desc">BICT (Honours) Speciaized in Software System Technology (R).</span><br>
+            <span class="main-footer__short-desc">Faculty of Computing Technology.</span><br>
+            <span class="main-footer__short-desc">University of Kelaniya.</span>
           </div>
         </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
+          &copy; Copyright 2022. Developed by Mohamed Sharfiras
         </div>
       </div>
     </footer>
-    <script src="./index.js"></script>
+
+    <script src="../index.js"></script>
   </body>
 </html>
