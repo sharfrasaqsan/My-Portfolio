@@ -259,7 +259,7 @@ textarea {
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 3rem; }
+      margin-bottom: rem; }
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
           font-size: 2.4rem; } }
@@ -693,7 +693,7 @@ textarea {
     animation: wheel 1.3s infinite;
     -webkit-animation: wheel 1.3s infinite; }
 
-@keyframes wheel {
+/* @keyframes wheel {
   to {
     opacity: 0;
     top: 27px; } }
@@ -701,4 +701,4 @@ textarea {
 @-webkit-keyframes wheel {
   to {
     opacity: 0;
-    top: 27px; } }
+    top: 27px; } } */
