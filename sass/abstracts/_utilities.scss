@@ -144,7 +144,18 @@
   }
 }
 
-
 .d-none {
   display: none;
+}
+
+@media screen and (max-width: 400px) {
+  #buttons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  #buttons .btn {
+    height: 7.5rem;
+  }
 }
